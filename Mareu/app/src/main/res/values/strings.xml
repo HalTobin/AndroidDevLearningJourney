@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Maréu</string>
+
+    <string name="select_date_room">Date et Lieu</string>
+    <string name="select_color">Couleur</string>
+    <string name="select_users">Participants</string>
+
+    <string name="filter_date">Filtrer par date</string>
+    <string name="filter_room">Filtrer par salle</string>
+    <string name="filter_reset">Tout afficher</string>
+
+    <string name="hint_date">JJ/MM/AAAA</string>
+    <string name="hint_hour">HH:MM</string>
+    <string name="hint_name">Sujet</string>
+    <string name="hint_room">Salle</string>
+    <string name="hint_user">Participant</string>
+    <string name="add_meeting_create">Créer une réunion</string>
+
+    <string name="pick_a_color">Sélectionnez une couleur :</string>
+    <string name="select">Valider</string>
+    <string name="cancel">Annuler</string>
+
+    <string name="room_not_available_title">Attention</string>
+    <string name="room_not_available_content">Cette salle est déjà utilisé durant l\'heure que vous avez sélectionné, êtes vous sûr de vouloir créer cette réunion ?</string>
+</resources>

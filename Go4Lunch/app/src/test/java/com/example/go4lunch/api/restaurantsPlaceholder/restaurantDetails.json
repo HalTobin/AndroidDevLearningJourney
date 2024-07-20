@@ -1,0 +1,254 @@
+{
+  "html_attributions": [],
+  "result": {
+    "formatted_phone_number": "01 43 73 88 70",
+    "geometry": {
+      "location": {
+        "lat": 48.8567467,
+        "lng": 2.3945803
+      },
+      "viewport": {
+        "northeast": {
+          "lat": 48.8580752302915,
+          "lng": 2.395907630291501
+        },
+        "southwest": {
+          "lat": 48.8553772697085,
+          "lng": 2.393209669708498
+        }
+      }
+    },
+    "name": "Saporo",
+    "opening_hours": {
+      "open_now": true,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2300"
+          },
+          "open": {
+            "day": 0,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "1500"
+          },
+          "open": {
+            "day": 1,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2300"
+          },
+          "open": {
+            "day": 1,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "1500"
+          },
+          "open": {
+            "day": 2,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2300"
+          },
+          "open": {
+            "day": 2,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "1500"
+          },
+          "open": {
+            "day": 3,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2300"
+          },
+          "open": {
+            "day": 3,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "1500"
+          },
+          "open": {
+            "day": 4,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2300"
+          },
+          "open": {
+            "day": 4,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "1500"
+          },
+          "open": {
+            "day": 5,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2300"
+          },
+          "open": {
+            "day": 5,
+            "time": "1800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "1500"
+          },
+          "open": {
+            "day": 6,
+            "time": "1200"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2300"
+          },
+          "open": {
+            "day": 6,
+            "time": "1800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 12:00 – 3:00 PM, 6:00 – 11:00 PM",
+        "Tuesday: 12:00 – 3:00 PM, 6:00 – 11:00 PM",
+        "Wednesday: 12:00 – 3:00 PM, 6:00 – 11:00 PM",
+        "Thursday: 12:00 – 3:00 PM, 6:00 – 11:00 PM",
+        "Friday: 12:00 – 3:00 PM, 6:00 – 11:00 PM",
+        "Saturday: 12:00 – 3:00 PM, 6:00 – 11:00 PM",
+        "Sunday: 6:00 – 11:00 PM"
+      ]
+    },
+    "photos": [
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111222638561766671955\">Juan Antonio Rodriguez-Toquero</a>"
+        ],
+        "photo_reference": "Aap_uEArulC94GqRgLcC-DQ00v-VVgw6-Hc_x8K9fg2YaHUfXvh9WbShg9smmVWeUrWBFbl_R3Ovxu63igzVUB-QL2nrOxx0Itbt2tLOKHC0PwjozvBoKQnVbCNKbSPaDex86IGjBS3LhwuBSSm10xb1Usw1x6LxwsE6Oo6-bUFzf1zuiJ0H",
+        "width": 4032
+      },
+      {
+        "height": 2421,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118386777752167650166\">Vanida S</a>"
+        ],
+        "photo_reference": "Aap_uEBbz_ThcX35SPIsAKjyjnUx4HOzNiV2dVP6vTu7n52lHjmQ2TM3GH4sIUvMsfgf_NxVJAs4WfVWsZY8vrLPNtc6nH_2ifdamDzaH3_RCT_V3c-e0Muh5WqmnrijpQ5BPLuBfBF38UzQXFatVUWu6bqhq9tE0VNc4apYhMzsPC5nxPU",
+        "width": 1656
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118099011559976012639\">thomas castelain</a>"
+        ],
+        "photo_reference": "Aap_uECn7QdgyaoyxdeVLHOvrUV7Gi3NIWmgJmgR-9M1j6hZ0ZJrtiTXVWjO9tq6jtG3VbkRjLauzxfj1CBKo4KPlDxg0rR3HooCjMcZvKF1Ymnd0Uq9h1MXiYUOuhZyALeteVsu7EqhXhtNAisxC6KpaM1aU6x8jr7BvHCUHugbWx7Hr-di",
+        "width": 3468
+      },
+      {
+        "height": 3024,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112467598851494867068\">L H</a>"
+        ],
+        "photo_reference": "Aap_uEAbaAfcxsSd8M9ONi9Dci13U2RIazZsZmrnLDQeZGW9733AC1hP5lNtE93Z7ucw750qTMhnfyledT4vtLIrTc30kbwCux4AFzNMbzps4CJMgZ-uQfxu0mn5mhWgDk6smfpQ3dglj4Y_r5vNi_6d-m9m1wNq4FJwRAZde_Dp9va84n_g",
+        "width": 4032
+      },
+      {
+        "height": 4160,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117799304882085542822\">Marie-Caroline Durcos</a>"
+        ],
+        "photo_reference": "Aap_uEDa5SsM2iq0GqPNaMD0Jo0TcPY7tHzsYNmw6RLuw4HPs8PNkQzGI7LijFdGktG6nXCv_Ou1M3liOdkvSO-7LE0sOUYwBOJXE6uUqQN10Wc_XPvDfDkkdzl1hfaEWHiuVvrp9fjzdbZxZQIdCwEGS_J-TlYOZ0-uPgIkS7xqw8UcGhvf",
+        "width": 3120
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116737064747669733373\">Malika Dovo</a>"
+        ],
+        "photo_reference": "Aap_uEAdRe1UyZbQOftxtCvA5V8V1xs0mhaky_lp8oOhqduEhb2b73_8jPg00vaUF0OEOW8E70zkbw1PfYBEWi1X2nmY9tBsBEtTcBzEbvvPl-nrxVXxM5qy0qbSc7bzJWrpHuelu9D8kNBQoWa7TS708qu-kF-oYZIi6smm2ECMaTUW4LLS",
+        "width": 3024
+      },
+      {
+        "height": 4624,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118099011559976012639\">thomas castelain</a>"
+        ],
+        "photo_reference": "Aap_uECx25n7CVCYmFVZ9-7wq4-G3wP3orO-mue5M4wPuNLejwrL_vxq13-HIepTTtdHyStlvqmGpaXjNsvL0HMMYR2Zy4aHJNvHLt0d-bg6CSLQ1Eu80lY3uPuVV-7hCcXCPiCBGldZh_xRG73uXziym99f7_2KCKifrXAjCZhfNiNR4Ete",
+        "width": 3468
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116737064747669733373\">Malika Dovo</a>"
+        ],
+        "photo_reference": "Aap_uEAibQewPOlbEWyNw4M66UPO-ajWCGzO_uAvwCj19MoEYAGl8zRlJYEIiDRlMmc9uD0rMRanCsgj9Q4VpxSKoHzM12H2fxiND9U-mtAaBsTk_OW3E7NxMcb-eTxtpks7YrfETvkx8u5VpWke-puvigNJ027QVcdqu-sq0Okp9jq8K744",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116737064747669733373\">Malika Dovo</a>"
+        ],
+        "photo_reference": "Aap_uECGkLzXPGl8A2vfuSZ-QZD9ChmzmQVhAZ_61MGe7BbtbGH73sVBMDpuBxydtcIXrpbKpVSVRSu95gzgNSjdNGobAbtPZ-9F7rGlV5qb8gKzWjDoZDR9w001S4tIAFKutwEOT9vrGjO-S_zyHrjbab5wirI6ZWUXvHB8oemKDQB_8kPB",
+        "width": 3024
+      },
+      {
+        "height": 4032,
+        "html_attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116737064747669733373\">Malika Dovo</a>"
+        ],
+        "photo_reference": "Aap_uEAzzSV_TvMV15RJWK2CAZmKOKwUvpgDpySfmy2uXO9qEerapmxfAMu4cLc2R51n4EK-mvTQ1l3YqaQCS8h9Hs5QaK24Dti1K1pMNSkFVL5sDiE31J0ZVfvhEpU7z60YK5kWbUGa_P6lSRJKSaL9ZYi8M9Pyk5Y7pFxmVJ1NdSQeqbJ8",
+        "width": 3024
+      }
+    ],
+    "place_id": "ChIJ2bUYI4pt5kcRzXOD0ADpne0",
+    "rating": 4.3,
+    "vicinity": "152 Boulevard de Charonne, Paris",
+    "website": "http://www.saporo20.com/"
+  },
+  "status": "OK"
+}

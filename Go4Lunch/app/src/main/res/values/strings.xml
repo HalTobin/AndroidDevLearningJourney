@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Go4Lunch</string>
+
+    <string name="auth_google">Se connecter avec Google</string>
+    <string name="auth_facebook">Se connecter avec Facebook</string>
+    <string name="auth_twitter">Se connecter avec Twitter</string>
+    <string name="auth_email">Se connecter avec votre email</string>
+
+    <string name="auth_success">Connexion réussie !</string>
+
+    <string name="action_search_restaurants">Chercher un restaurant</string>
+    <string name="action_search_workmates">Chercher un collègue</string>
+
+    <string name="nav_map">Carte</string>
+    <string name="nav_list">Liste</string>
+    <string name="nav_workmates">Collègues</string>
+
+    <string name="nav_your_lunch">VOTRE REPAS</string>
+    <string name="nav_settings">PARAMÈTRES</string>
+    <string name="nav_logout">DÉCONNEXION</string>
+
+    <string name="nav_your_meal_no_restaurant_selected">Vous n\'avez pas sélectionné de restaurant…</string>
+
+    <string name="navigation_drawer_open">Ouvrir le menu latéral</string>
+    <string name="navigation_drawer_close">Fermer le menu latéral</string>
+
+    <string name="open_until">Ouvert jusqu\'à</string>
+    <string name="open_unknown">Horaires inconnus</string>
+    <string name="closed">Fermé</string>
+
+    <string name="food_type_french">Français</string>
+    <string name="food_type_chinese">Chinois</string>
+    <string name="food_type_korean">Koréen</string>
+    <string name="food_type_japanese">Japonais</string>
+    <string name="food_type_italian">Italien</string>
+    <string name="food_type_indian">Indien</string>
+    <string name="food_type_american">Américain</string>
+
+    <string name="details_call">APPEL</string>
+    <string name="details_like">FAVORIS</string>
+    <string name="details_website">SITE</string>
+
+    <string name="workmate_eating">mange à</string>
+    <string name="workmate_joining">sera présent !</string>
+    <string name="workmate_not_decided">ne s\'est pas encore décidé…</string>
+
+    <string name="notification_news_channel_id" translatable="false">LunchAlarm</string>
+    <string name="notification_channel_news">Notification Repas</string>
+    <string name="notification_description">Recevez un rappel tous les midi</string>
+
+    <string name="notification_alone">N\'oubliez pas votre repas !</string>
+    <string name="notification_not_alone">N\'oubliez pas votre repas avec</string>
+    <string name="notification_and"> et </string>
+    <string name="notification_not_alone_end">!</string>
+</resources>

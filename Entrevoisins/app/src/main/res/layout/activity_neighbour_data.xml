@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorVeryLightGrey"
+    tools:context=".ui.neighbour_data.NeighbourDataActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/activity_neighbour_data_lyt_avatar"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/activity_neighbour_data_img_avatar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteY="24dp"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/activity_neighbour_data_txt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:text="@string/data_default_neighbour_name"
+                android:textColor="@color/colorWhite"
+                android:background="@color/colorAlpha"
+                android:textSize="38sp"
+                android:layout_alignBottom="@id/activity_neighbour_data_img_avatar"
+                android:layout_marginStart="6dp"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:id="@+id/activity_neighbour_data_lyt_cardContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/activity_neighbour_data_lyt_avatar"
+                android:layout_margin="12dp">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_no1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/activity_neighbour_data_card1_txt_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="18dp"
+                            android:text="@string/data_default_neighbour_name"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="24sp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginBottom="12dp"
+                            android:background="@color/colorLightGrey" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="8dp"
+                            android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/activity_neighbour_data_card1_txt_adress"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="14dp"
+                                    android:layout_marginStart="6dp"
+                                    android:drawableStart="@drawable/ic_map_marker"
+                                    android:drawableTint="@color/colorAccent"
+                                    android:drawablePadding="8dp"
+                                    android:text="@string/data_default_neighbour_adress"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/activity_neighbour_data_card1_txt_phone"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="14dp"
+                                    android:layout_marginStart="6dp"
+                                    android:drawableStart="@drawable/ic_phone"
+                                    android:drawableTint="@color/colorAccent"
+                                    android:drawablePadding="8dp"
+                                    android:text="@string/data_default_neighbour_phone"
+                                    android:textSize="14sp" />
+
+                                <TextView
+                                    android:id="@+id/activity_neighbour_data_card1_txt_web"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="14dp"
+                                    android:layout_marginStart="6dp"
+                                    android:drawableStart="@drawable/ic_web"
+                                    android:drawableTint="@color/colorAccent"
+                                    android:drawablePadding="8dp"
+                                    android:text="@string/data_default_neighbour_web"
+                                    android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_view_no2"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    app:cardCornerRadius="4dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/activity_neighbour_data_card2_txt_title_about"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginTop="18dp"
+                            android:textColor="@color/colorBlack"
+                            android:text="@string/data_about"
+                            android:textSize="24sp"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="6dp"
+                            android:layout_marginBottom="12dp"
+                            android:background="@color/colorLightGrey" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="6dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/activity_neighbour_data_card2_txt_aboutMe"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="12dp"
+                                android:layout_marginBottom="6dp"
+                                android:text="@string/data_default_neighbour_aboutMe"
+                                android:textSize="14sp" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+
+        <ImageView
+            android:id="@+id/activity_neighbour_data_img_cancel"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_arrow_left"
+            android:tint="@color/colorWhite"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/activity_neighbour_data_bt_favorite"
+            android:layout_alignBottom="@id/activity_neighbour_data_lyt_avatar"
+            android:layout_alignEnd="@id/activity_neighbour_data_lyt_cardContainer"
+            android:layout_marginBottom="-26dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:src="@drawable/ic_star"
+            android:tint="@color/colorYellow"
+            android:backgroundTint="@color/colorVeryLightGrey"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

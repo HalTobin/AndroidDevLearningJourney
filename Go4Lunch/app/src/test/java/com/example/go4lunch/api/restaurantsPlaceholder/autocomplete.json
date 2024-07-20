@@ -1,0 +1,223 @@
+{
+  "predictions": [
+    {
+      "description": "Le Colibri, Boulevard de Charonne, Paris, France",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 3
+        }
+      ],
+      "place_id": "ChIJ-aVKIopt5kcRu8Be9J01Tz4",
+      "reference": "ChIJ-aVKIopt5kcRu8Be9J01Tz4",
+      "structured_formatting": {
+        "main_text": "Le Colibri",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 3
+          }
+        ],
+        "secondary_text": "Boulevard de Charonne, Paris, France"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Le Colibri"
+        },
+        {
+          "offset": 12,
+          "value": "Boulevard de Charonne"
+        },
+        {
+          "offset": 35,
+          "value": "Paris"
+        },
+        {
+          "offset": 42,
+          "value": "France"
+        }
+      ],
+      "types": [
+        "bar",
+        "restaurant",
+        "food",
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "description": "Colissimo, Boulevard de Vaugirard, Paris, France",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJ55_AcjRw5kcR3fmcFpIUor0",
+      "reference": "ChIJ55_AcjRw5kcR3fmcFpIUor0",
+      "structured_formatting": {
+        "main_text": "Colissimo",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Boulevard de Vaugirard, Paris, France"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Colissimo"
+        },
+        {
+          "offset": 11,
+          "value": "Boulevard de Vaugirard"
+        },
+        {
+          "offset": 35,
+          "value": "Paris"
+        },
+        {
+          "offset": 42,
+          "value": "France"
+        }
+      ],
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "description": "Colisée, Rue du Colisée, Paris, France",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJ6ylRP8Rv5kcRICiUtQ1_iYE",
+      "reference": "ChIJ6ylRP8Rv5kcRICiUtQ1_iYE",
+      "structured_formatting": {
+        "main_text": "Colisée",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Rue du Colisée, Paris, France"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Colisée"
+        },
+        {
+          "offset": 9,
+          "value": "Rue du Colisée"
+        },
+        {
+          "offset": 25,
+          "value": "Paris"
+        },
+        {
+          "offset": 32,
+          "value": "France"
+        }
+      ],
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "description": "ColisExpat, Rue Eugène Hénaff, Bobigny, France",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJDZSpP-Vs5kcRclifRxy4TL4",
+      "reference": "ChIJDZSpP-Vs5kcRclifRxy4TL4",
+      "structured_formatting": {
+        "main_text": "ColisExpat",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Rue Eugène Hénaff, Bobigny, France"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "ColisExpat"
+        },
+        {
+          "offset": 12,
+          "value": "Rue Eugène Hénaff"
+        },
+        {
+          "offset": 31,
+          "value": "Bobigny"
+        },
+        {
+          "offset": 40,
+          "value": "France"
+        }
+      ],
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ]
+    },
+    {
+      "description": "Colisée Gardens, Avenue de l'Arche, Courbevoie, France",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "ChIJYUyCGgFl5kcRvUGCDUnzlK0",
+      "reference": "ChIJYUyCGgFl5kcRvUGCDUnzlK0",
+      "structured_formatting": {
+        "main_text": "Colisée Gardens",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Avenue de l'Arche, Courbevoie, France"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Colisée Gardens"
+        },
+        {
+          "offset": 17,
+          "value": "Avenue de l'Arche"
+        },
+        {
+          "offset": 36,
+          "value": "Courbevoie"
+        },
+        {
+          "offset": 48,
+          "value": "France"
+        }
+      ],
+      "types": [
+        "point_of_interest",
+        "establishment"
+      ]
+    }
+  ],
+  "status": "OK"
+}

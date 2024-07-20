@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Entrevoisins</string>
+    <string name="tab_neighbour_title">My neighbours</string>
+    <string name="tab_favorites_title">Favorites</string>
+    <string name="activity_new_neighbour">New neighbour</string>
+
+    <string name="data_default_neighbour_name">Prénom</string>
+    <string name="data_default_neighbour_adress">Paris, 20ème</string>
+    <string name="data_default_neighbour_phone">+33642008855</string>
+    <string name="data_default_neighbour_web">www.facebook.fr/</string>
+    <string name="data_default_neighbour_aboutMe">Bonjour tout le monde ! \nVoici une petite description...</string>
+    <string name="data_about">A propos de moi</string>
+</resources>

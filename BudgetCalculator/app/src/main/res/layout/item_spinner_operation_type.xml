@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/item_spinner_operation_type_text"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:text="Type"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="@id/item_spinner_operation_type_image"
+        app:layout_constraintBottom_toBottomOf="@id/item_spinner_operation_type_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/item_spinner_operation_type_image"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/item_spinner_operation_type_image"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/type_undefined"
+        android:scaleType="fitCenter"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

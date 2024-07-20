@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_setlist_line_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/item_setlist_line_album_dragndrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        card_view:layout_constraintStart_toStartOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_drag_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="4dp"
+        card_view:layout_constraintBottom_toBottomOf="@id/item_setlist_line_album_dragndrop"
+        card_view:layout_constraintStart_toEndOf="@+id/item_setlist_line_album_dragndrop"
+        card_view:layout_constraintEnd_toEndOf="parent"
+        card_view:layout_constraintTop_toTopOf="@id/item_setlist_line_album_dragndrop">
+
+        <TextView
+            android:id="@+id/item_setlist_line_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Unknown Title"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/item_setlist_line_artist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Unknown Artist" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/item_setlist_line_album"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintEnd_toStartOf="@id/item_setlist_line_duration"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Unknown Album" />
+
+            <TextView
+                android:id="@+id/item_setlist_line_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                card_view:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintStart_toEndOf="@id/item_setlist_line_album"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="6dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textAlignment="textEnd"
+                android:text="00:00" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_estate_main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp">
+
+    <ImageView
+        android:id="@+id/item_estate_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_no_photo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintCircleRadius="8dp"/>
+
+    <TextView
+        android:id="@+id/item_estate_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Nom"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintStart_toEndOf="@id/item_estate_image"
+        app:layout_constraintEnd_toStartOf="@id/item_estate_sold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/item_estate_location"/>
+
+    <TextView
+        android:id="@+id/item_estate_location"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="Paris"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintStart_toEndOf="@id/item_estate_image"
+        app:layout_constraintEnd_toStartOf="@id/item_estate_sold"
+        app:layout_constraintTop_toBottomOf="@id/item_estate_name"
+        app:layout_constraintBottom_toTopOf="@id/item_estate_price"/>
+
+    <TextView
+        android:id="@+id/item_estate_price"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="153 000€"
+        android:textSize="18sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintStart_toEndOf="@id/item_estate_image"
+        app:layout_constraintEnd_toStartOf="@id/item_estate_sold"
+        app:layout_constraintTop_toBottomOf="@id/item_estate_location"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <ImageView
+        android:id="@+id/item_estate_sold"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="8dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/sold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@id/item_estate_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintCircleRadius="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

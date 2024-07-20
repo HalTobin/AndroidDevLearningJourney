@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <bitmap
+        android:drawable="@drawable/bg_blur_restaurant"
+        android:scaleType="centerInside"/>
+
+    <item android:top="120dp">
+        <bitmap
+            android:src="@drawable/ic_go4lunch"
+            android:gravity="top|center_horizontal" />
+    </item>
+
+</layer-list>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/main_hub_menu_lunch"
+        android:title="@string/nav_your_lunch"
+        android:icon="@drawable/ic_menu_silverware" />
+    <item
+        android:id="@+id/main_hub_menu_settings"
+        android:title="@string/nav_settings"
+        android:icon="@drawable/ic_menu_settings"/>
+    <item
+        android:id="@+id/main_hub_menu_logout"
+        android:title="@string/nav_logout"
+        android:icon="@drawable/ic_menu_logout"/>
+
+</menu>

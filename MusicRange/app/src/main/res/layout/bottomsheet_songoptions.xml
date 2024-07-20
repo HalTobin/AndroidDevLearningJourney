@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="12dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bottomsheet_songption_mini_thumbnail"
+            android:layout_width="64dp"
+            android:layout_height="match_parent"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent"
+            card_view:layout_constraintBottom_toBottomOf="parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/default_thumbnail_album" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="4dp"
+            card_view:layout_constraintBottom_toBottomOf="@id/bottomsheet_songption_mini_thumbnail"
+            card_view:layout_constraintStart_toEndOf="@+id/bottomsheet_songption_mini_thumbnail"
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintTop_toTopOf="@id/bottomsheet_songption_mini_thumbnail">
+
+            <TextView
+                android:id="@+id/bottomsheet_songption_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/unknown_title"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bottomsheet_songption_artist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/unknown_artist" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/bottomsheet_songption_album"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    card_view:layout_constraintTop_toTopOf="parent"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:layout_constraintEnd_toStartOf="@id/bottomsheet_songption_duration"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/unknown_album" />
+
+                <TextView
+                    android:id="@+id/bottomsheet_songption_duration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    card_view:layout_constraintTop_toTopOf="parent"
+                    card_view:layout_constraintStart_toEndOf="@id/bottomsheet_songption_album"
+                    card_view:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="6dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textAlignment="textEnd"
+                    android:text="00:00" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/bottomsheet_songoption_set_next_song_txt"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:drawablePadding="12dp"
+        android:text="@string/option_next_song"
+        card_view:drawableStartCompat="@drawable/ic_playlist_next" />
+
+    <TextView
+        android:id="@+id/bottomsheet_songoption_add_song_to_queu_txt"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="12dp"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:drawablePadding="12dp"
+        android:text="@string/option_add_to_queu"
+        card_view:drawableStartCompat="@drawable/ic_playlist_add" />
+
+</LinearLayout>

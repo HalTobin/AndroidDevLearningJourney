@@ -1,0 +1,13 @@
+Icons : https://materialdesignicons.com/
+
+Load Image Async : https://www.youtube.com/watch?v=J55pR7EvVUQ
+
+RecylerView for Music App : https://www.youtube.com/watch?v=7Fe1jigV5Qs
+
+List All Songs : https://www.youtube.com/watch?v=kf2fxYLOiSo
+
+Drag & Drop Reorder inside a RecyclerView : https://yfujiki.medium.com/drag-and-reorder-recyclerview-items-in-a-user-friendly-manner-1282335141e9
+
+Player : https://www.youtube.com/watch?v=cw4z2Mv0x7Q
+
+Image Concatenation : http://jens-na.github.io/2013/11/06/java-how-to-concat-buffered-images/

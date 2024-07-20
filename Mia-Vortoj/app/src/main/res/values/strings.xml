@@ -1,0 +1,195 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Kartoj</string>
+
+    <string name="ok">D\'accord</string>
+
+    <string name="search_hint">Recherche</string>
+
+    <string name="dialog_warning">Attention</string>
+    <string name="dialog_cancel">Annuler</string>
+    <string name="dialog_confirm">Confirmer</string>
+
+    <string name="order_ascending">Ascendant</string>
+    <string name="order_descending">Descendant</string>
+
+    <string name="order_dictionary_language">Langue</string>
+    <string name="order_dictionary_title">Titre</string>
+    <string name="order_dictionary_words">Mots</string>
+
+    <string name="order_word_source">Mot</string>
+    <string name="order_word_target">Traduction</string>
+    <string name="order_word_theme">Thème</string>
+
+    <string name="dictionary_screen_title">Vos dictionnaires</string>
+
+    <string name="dictionary_screen_delete_text" tools:ignore="TypographyEllipsis">"La suppression d'un dictionnaire est définitive, %s ainsi que toutes les entrées associées seront perdues... Entrez le texte suivant pour confirmer la suppression :"</string>
+
+    <string name="dictionary_screen_delete_to_enter">Supprimer</string>
+
+    <string name="add_edit_dictionary_screen_title_hint" tools:ignore="TypographyEllipsis">Entrez un titre...</string>
+    <string name="add_edit_dictionary_screen_description_hint" tools:ignore="TypographyEllipsis">Entrez une description...</string>
+
+    <string name="word_screen_delete_text">Êtes-vous sûr de vouloir supprimer le mot suivant :</string>
+
+    <string name="word_screen_no_words_for_quiz" tools:ignore="TypographyEllipsis">"Il est impossible de lancer un quiz si aucun mot n'a été enregistré dans le dictionnaire...     "</string>
+
+    <string name="add_edit_word_source_hint">Mot</string>
+    <string name="add_edit_word_target_hint">Cible</string>
+    <string name="add_edit_word_emote_hint">Emote</string>
+    <string name="add_edit_word_notes_hint">Notes</string>
+    <string name="add_edit_word_category_hint">Catégorie</string>
+
+    <string name="word_card_play">Écouter</string>
+
+    <string name="difficulty">Difficulté</string>
+    <string name="difficulty_easy">Facile</string>
+    <string name="difficulty_medium">Moyen</string>
+    <string name="difficulty_hard">Difficile</string>
+
+    <string name="words_start_quiz">Quiz</string>
+
+    <string name="quiz_enter_response">Réponse</string>
+    <string name="quiz_ask_answer">Suivant</string>
+    <string name="quiz_validate_answer">Valider</string>
+    <string name="quiz_validate_continue">Continuer</string>
+    <string name="quiz_answer_was">La réponse était :</string>
+
+    <string name="quiz_finished">Quiz terminé !</string>
+
+    <!--
+    <string name="language_na">Autres</string>
+
+    <string name="language_epo">Espéranto</string>
+    <string name="language_tkpn">Toki Pona</string>
+    <string name="language_islv">Interslave</string>
+    <string name="language_ilng">Interlingua</string>
+
+    <string name="language_lat">Latin</string>
+    <string name="language_gre">Grec</string>
+
+    <string name="language_frbre">Breton</string>
+    <string name="language_cy">Gallois</string>
+    <string name="language_kw">Cornique</string>
+    <string name="language_ga">Irlandais</string>
+    <string name="language_gd">Écossais</string>
+    <string name="language_gv">Mannois</string>
+
+    <string name="language_fra">Français</string>
+    <string name="language_fr20r">Corse</string>
+    <string name="language_frocc">Occitan</string>
+    <string name="language_pv">Basque</string>
+    <string name="language_esp">Espagnol</string>
+    <string name="language_esct">Catalan</string>
+    <string name="language_ita">Italien</string>
+    <string name="language_srd">Sarde</string>
+    <string name="language_rum">Roumain</string>
+
+    <string name="language_eng">Anglais</string>
+    <string name="language_sco">Scots</string>
+
+    <string name="language_nl">Néerlandais</string>
+    <string name="language_fry">Frison Occidental</string>
+    <string name="language_frr">Frison Septentrional</string>
+    <string name="language_deu">Allemand</string>
+    <string name="language_nor">Norvégien</string>
+    <string name="language_dnk">Danois</string>
+    <string name="language_swe">Suédois</string>
+    <string name="language_fin">Finnois</string>
+    <string name="language_est">Estonien</string>
+    <string name="language_is">Islandais</string>
+
+    <string name="language_yi">Yiddish</string>
+
+    <string name="language_svn">Slovène</string>
+    <string name="language_svk">Slovaque</string>
+    <string name="language_cze">Tchèque</string>
+    <string name="language_rus">Russe</string>
+    <string name="language_blr">Biélorusse</string>
+    <string name="language_ukr">Ukrainien</string>
+    <string name="language_pl">Polonais</string>
+    <string name="language_lva">Letton</string>
+    <string name="language_ltu">Lituanien</string>
+    <string name="language_bih">Serbo-Croate</string>
+
+    <string name="language_hin">Hindi</string>
+    <string name="language_tel">Telugu</string>
+    <string name="language_tam">Tamil</string>
+    <string name="language_ur">Urdu</string>
+
+    <string name="language_tur">Turc</string>
+    <string name="language_tat">Tatar</string>
+    <string name="language_tuk">Turkmène</string>
+    <string name="language_tgk">Tadjik</string>
+    <string name="language_per">Persan</string>
+
+    <string name="language_jpn">Japonais</string>
+    <string name="language_kor">Coréen</string>
+    <string name="language_chn">Chinois (Mandarin)</string>
+    <string name="language_yue">Chinois (Cantonais)</string>
+    <string name="language_vi">Vietnamien</string>
+    <string name="language_th">Thaï</string>
+
+    <string name="language_zaf">Afrikaans</string>
+    <string name="language_zu">Zoulou</string>
+    <string name="language_xh">Xhosa</string>
+    <string name="language_yo">Yoruba</string>
+    <string name="language_tw">Twi</string>
+    <string name="language_tso">Tsonga</string>
+    <string name="language_tir">Tigrinya</string>
+
+    <string name="language_alb">Albanais</string>
+    <string name="language_sau">Arabe</string>
+    <string name="language_heb">Hébreu</string>
+    <string name="language_arm">Arménien</string>
+    <string name="language_aze">Azéri</string>
+
+    <string name="language_bgd">Bengali</string>
+    <string name="language_mmr">Birman</string>
+
+    <string name="language_bgr">Bulgare</string>
+    <string name="language_phl">Cebuano</string>
+    <string name="language_mwi">Chichewa</string>
+    <string name="language_lka">Singhalais</string>
+
+    <string name="language_nah">Nahuatl</string>
+
+    <string name="language_fiklg">Klingon</string>
+    <string name="language_fielfqya">Quenya</string>
+    <string name="language_fielfsjn">Sindarin</string>
+    <string name="language_fielf">Elfique</string>
+    <string name="language_fidtk">Dothraki</string>
+    <string name="language_finavi">Naʼvi</string>
+    <string name="language_filpn">Lapine</string>
+    <string name="language_fidov">Draconique</string>
+    -->
+
+    <string name="theme_other">Autres</string>
+    <string name="theme_number">Chiffres &amp; Nombres</string>
+    <string name="theme_house">Maison</string>
+    <string name="theme_food_drink">Nourritures &amp; Boissons</string>
+    <string name="theme_greetings">Salutations</string>
+    <string name="theme_family">Famille</string>
+    <string name="theme_religion">Religion</string>
+    <string name="theme_body">Corps</string>
+    <string name="theme_clothes">Vêtements</string>
+    <string name="theme_weather">Météo</string>
+    <string name="theme_date_time">Heures &amp; Dates</string>
+    <string name="theme_animal">Animaux</string>
+    <string name="theme_space">Espace</string>
+    <string name="theme_nature">Nature</string>
+    <string name="theme_music">Musique</string>
+    <string name="theme_art">Art</string>
+    <string name="theme_color">Couleurs</string>
+    <string name="theme_adjective">Adjectifs</string>
+    <string name="theme_verb">Verbes</string>
+    <string name="theme_communication">Communication</string>
+    <string name="theme_health">Santé</string>
+    <string name="theme_movie">Film</string>
+    <string name="theme_work">Travail</string>
+    <string name="theme_sport">Sport</string>
+    <string name="theme_country_language">Langues &amp; Pays</string>
+    <string name="theme_transport">Transport</string>
+    <string name="theme_object">Objets</string>
+    <string name="theme_place">Lieux</string>
+    <string name="theme_science">Science</string>
+</resources>

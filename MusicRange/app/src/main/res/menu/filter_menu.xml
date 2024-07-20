@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+        android:icon="@drawable/ic_dots_vertical"
+        android:title="Item 1"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <item
+                android:id="@+id/main_menu_scan_local_item"
+                android:title="@string/main_menu_scan_local"/>
+            <item
+                android:id="@+id/main_menu_connect_spotify_item"
+                android:title="Connect Spotify"/>
+            <item
+                android:id="@+id/main_menu_scan_spotify_item"
+                android:title="Scan Spotify"/>
+        </menu>
+
+    </item>
+
+
+</menu>

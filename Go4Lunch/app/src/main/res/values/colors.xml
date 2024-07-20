@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange_200">#FF8A50</color>
+    <color name="orange_500">#FF5722</color>
+    <color name="orange_700">#c41b00</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="light_black">#FF444444</color>
+    <color name="black">#FF000000</color>
+    <color name="gray_light">#22000000</color>
+    <color name="light_white">#FFDDDDDD</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="favorite_on">#FFEB3B</color>
+    <color name="favorite_off">#00000000</color>
+    <color name="off">#77000000</color>
+
+    <color name="googleAuthColor">#df4930</color>
+    <color name="facebookAuthColor">#507cc0</color>
+    <color name="twitterAuthColor">#1da1f2</color>
+    <color name="emailAuthColor">#FF5722</color>
+</resources>

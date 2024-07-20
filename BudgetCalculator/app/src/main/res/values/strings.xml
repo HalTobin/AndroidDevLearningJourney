@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">BudgetCalculator</string>
+
+    <string name="BUDGET">BUDGET</string>
+    <string name="budget">Budget</string>
+
+    <string name="budget_in_raw">Raw incomes : </string>
+    <string name="budget_in_net">Net incomes : </string>
+    <string name="budget_out">Outcomes :</string>
+    <string name="budget_aside">To put aside :</string>
+
+    <string name="add_operation">ADD AN OPERATION</string>
+    <string name="new_operation">Add an operation</string>
+
+    <string name="add">ADD</string>
+
+    <string name="add_low">Add</string>
+    <string name="edit_low">Edit</string>
+    <string name="delete_low">Delete</string>
+
+    <string name="title">Title</string>
+    <string name="income">Income</string>
+    <string name="outcome">Outcome</string>
+
+    <string name="amount">Amount</string>
+
+    <string name="annual">Annual</string>
+    <string name="monthly">Monthly</string>
+
+    <string name="type">Type</string>
+    <string name="type_in_undefined">Others</string>
+    <string name="type_in_salary">Salary</string>
+    <string name="type_in_allowances">Allowances / Help</string>
+    <string name="type_in_pocket">Pocket Money</string>
+    <string name="type_in_dividends">Dividends</string>
+
+    <string name="type_out_undefined">Others</string>
+    <string name="type_out_rent">Rent</string>
+    <string name="type_out_credit">Credit</string>
+    <string name="type_out_internet_phone">Internet / Phone</string>
+    <string name="type_out_investment">Investment</string>
+    <string name="type_out_savings">Savings</string>
+    <string name="type_out_donation">Donation</string>
+    <string name="type_out_subscription">Subscription</string>
+    <string name="type_out_taxes">Taxes</string>
+    <string name="type_out_house">House</string>
+    <string name="type_out_bank">Bank</string>
+    <string name="type_out_shopping">Shopping</string>
+
+</resources>

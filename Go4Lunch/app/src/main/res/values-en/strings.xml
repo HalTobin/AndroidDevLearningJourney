@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Go4Lunch</string>
+
+    <string name="auth_google">Connect with Google</string>
+    <string name="auth_facebook">Connect with Facebook</string>
+    <string name="auth_twitter">Connect with Twitter</string>
+    <string name="auth_email">Connect with email</string>
+
+    <string name="auth_success">Connection succeed !</string>
+
+    <string name="action_search_restaurants">Search a restaurant</string>
+    <string name="action_search_workmates">Search a workmate</string>
+
+    <string name="nav_map">Map</string>
+    <string name="nav_list">List</string>
+    <string name="nav_workmates">Workmates</string>
+
+    <string name="nav_your_lunch">YOUR LUNCH</string>
+    <string name="nav_settings">SETTINGS</string>
+    <string name="nav_logout">LOGOUT</string>
+
+    <string name="nav_your_meal_no_restaurant_selected">You haven\'t chosen any restaurant…</string>
+
+    <string name="navigation_drawer_open">Open side menu</string>
+    <string name="navigation_drawer_close">Close side menu</string>
+
+    <string name="open_until">Open until</string>
+    <string name="open_unknown">Unknown hours</string>
+    <string name="closed">Closed</string>
+
+    <string name="food_type_french">French</string>
+    <string name="food_type_chinese">Chinese</string>
+    <string name="food_type_korean">Korean</string>
+    <string name="food_type_japanese">Japanese</string>
+    <string name="food_type_italian">Italian</string>
+    <string name="food_type_indian">Indian</string>
+    <string name="food_type_american">American</string>
+
+    <string name="details_call">CALL</string>
+    <string name="details_like">LIKE</string>
+    <string name="details_website">WEB</string>
+
+    <string name="workmate_eating">is eating at</string>
+    <string name="workmate_joining">is joining !</string>
+    <string name="workmate_not_decided">hasn\'t decided yet…</string>
+
+    <string name="notification_news_channel_id" translatable="false">LunchAlarm</string>
+    <string name="notification_channel_news">Lunch Notification</string>
+    <string name="notification_description">Daily reminder</string>
+
+    <string name="notification_alone">Don\'t forget your meal !</string>
+    <string name="notification_not_alone">Don\'t forget your meal with</string>
+    <string name="notification_and"> and </string>
+    <string name="notification_not_alone_end">!</string>
+</resources>

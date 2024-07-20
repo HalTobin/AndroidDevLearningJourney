@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Music Range</string>
+    <string name="main_menu_scan_local">Scan</string>
+
+    <string name="option_play_now">Lire</string>
+    <string name="option_next_song">Prochain morceau</string>
+    <string name="option_add_to_queu">Ajouter à la file d\'attente</string>
+    <string name="option_move_to_end">Déplacer à la fin de la file</string>
+    <string name="option_remove_from_queu">Retirer de la fin de la file d\'attente</string>
+
+    <string name="unknown_title">Titre inconnu</string>
+    <string name="unknown_artist">Artiste inconnu</string>
+    <string name="unknown_album">Album inconnu</string>
+
+</resources>
